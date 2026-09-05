@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="favSphere" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#c7d2fe"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#3730a3"/>
+    </radialGradient>
+    <linearGradient id="favLetter" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+    <filter id="favShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="2" dy="3" stdDeviation="2" flood-color="#1e1b4b" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect x="8" y="8" width="84" height="84" rx="22" fill="url(#favSphere)" filter="url(#favShadow)"/>
+  <ellipse cx="36" cy="32" rx="16" ry="11" fill="white" opacity="0.22"/>
+  <g transform="translate(2, 2)" opacity="0.25">
+    <text x="50" y="66" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="42" font-weight="900" fill="#1e1b4b">MC</text>
+  </g>
+  <text x="50" y="64" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="42" font-weight="900" fill="url(#favLetter)">MC</text>
+</svg>

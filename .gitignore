@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production builds
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+
+# Uploads and user data
+uploads/
+data/
+*.sqlite
+*.db
+*.sqlite3
+
+# Security
+.pgp/
+*.pem
+*.key
+*.crt
+.jwt-secret
+.session-secret
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# OS
+.DS_Store

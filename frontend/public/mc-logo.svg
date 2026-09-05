@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="55 175 610 425" role="img" aria-labelledby="title desc">
+  <title id="title">MC PlanIt logo</title>
+  <desc id="desc">Glossy dimensional MC lettering in electric blue and violet</desc>
+  <defs>
+    <linearGradient id="floor" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1714a8" stop-opacity="0"/>
+      <stop offset=".48" stop-color="#7c3aed" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#1714a8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#48b8ff"/>
+      <stop offset=".35" stop-color="#3134d8"/>
+      <stop offset=".72" stop-color="#a238ff"/>
+      <stop offset="1" stop-color="#f0a4ff"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10158a"/>
+      <stop offset=".5" stop-color="#27127d"/>
+      <stop offset="1" stop-color="#7014bd"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity=".1"/>
+      <stop offset=".45" stop-color="#fff" stop-opacity=".9"/>
+      <stop offset=".72" stop-color="#fff" stop-opacity=".1"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" values="0 0 0 0 0.35 0 0 0 0 0.08 0 0 0 0 0.95 0 0 0 .72 0"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="24" stdDeviation="16" flood-color="#050218" flood-opacity=".9"/>
+    </filter>
+  </defs>
+  <ellipse cx="360" cy="579" rx="270" ry="30" fill="#782cff" opacity=".65" filter="url(#glow)"/>
+  <ellipse cx="360" cy="575" rx="250" ry="18" fill="url(#floor)"/>
+  <g filter="url(#shadow)" font-family="Arial Black, Impact, sans-serif" font-size="330" font-weight="900" font-style="italic" text-anchor="middle" letter-spacing="-42">
+    <text x="360" y="500" transform="translate(0 30)" fill="#080452" stroke="#09034d" stroke-width="18" stroke-linejoin="round">MC</text>
+    <text x="360" y="500" transform="translate(-8 18)" fill="url(#edge)" stroke="#171080" stroke-width="15" stroke-linejoin="round">MC</text>
+    <text x="360" y="500" fill="url(#face)" stroke="#a96cff" stroke-width="6" stroke-linejoin="round">MC</text>
+    <text x="360" y="500" fill="none" stroke="url(#shine)" stroke-width="5" opacity=".9">MC</text>
+  </g>
+  <path d="M157 270c95-56 229-67 346-17" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".32"/>
+</svg>
